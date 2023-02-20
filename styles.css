@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+    font-family: 'Pacifico', cursive;
+    height: 100vh;
+    width: 100vw;
+}
+
+.clock-body{
+    background-color: #ffffff1f;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    color: white;
+    height: 350px;
+    margin: 0 auto;
+    padding: 80px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 900px;
+    z-index: 2;
+}
+
+.clock{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.time{
+    background-color: #ffffff00;
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    box-shadow: 6px 6px 12px rgb(0, 0, 0);
+    display: inline-block;
+    font-size: 140px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    width: 27%;
+}
+
+.dots{
+    display: inline-block;
+    font-size: 140px;
+    height: 100%;
+    text-align: center;
+    width: 8%;
+}
+#am{
+    display: inline-block;
+    font-size: 25px;
+    position: absolute;
+    top: 40px;
+
+}
+#pm{
+    display: inline-block;
+}
+
+.design-1{
+    background: linear-gradient(to bottom, rgb(255, 217, 0), rgb(255, 51, 0));
+    border-radius: 25px;
+    display: inline-block;
+    height: 300px;
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    width: 300px;
+}
+
+.design-2{
+    background: linear-gradient(to bottom, rgb(0, 238, 255), rgb(17, 0, 255));
+    border-radius: 25px;
+    display: inline-block;
+    height: 200px;
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+    width: 200px;
+}
